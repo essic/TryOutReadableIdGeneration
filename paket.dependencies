@@ -1,0 +1,9 @@
+generate_load_scripts: true
+source https://api.nuget.org/v3/index.json
+
+storage: none
+framework: net6.0
+
+nuget FSharp.Core redirects: force
+nuget unquote
+nuget xunit
